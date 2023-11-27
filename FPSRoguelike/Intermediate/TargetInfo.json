@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPSRoguelike",
+			"Path": "..\\Source\\FPSRoguelike.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSRoguelikeEditor",
+			"Path": "..\\Source\\FPSRoguelikeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

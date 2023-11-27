@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FPSRoguelike.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\FPSRoguelikeEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPSRoguelike\FPSRoguelike.cpp.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPSRoguelike\Default.rc2.res"
+/OUT:"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPSRoguelike\UnrealEditor-FPSRoguelike.lib"
