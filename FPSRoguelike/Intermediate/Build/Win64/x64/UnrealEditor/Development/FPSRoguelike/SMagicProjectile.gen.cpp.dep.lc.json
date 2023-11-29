@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsroguelike\\uht\\smagicprojectile.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\x64\\fpsroguelikeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpsroguelike\\definitions.fpsroguelike.h",
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\source\\fpsroguelike\\smagicprojectile.h",
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsroguelike\\uht\\smagicprojectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
