@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ARInteractionCOmponent.h"
 #include "ARCharacter.generated.h"
+
 
 class UCameraComponent;
 class USpringArmComponent;
@@ -29,6 +31,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UCameraComponent> CameraComp;
+
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<UARInteractionCOmponent> InteractionComp;
 	
 	// Called when the game starts or when spawned
 	
@@ -37,6 +42,7 @@ protected:
 	void MoveForward(float value);
 	void MoveRight(float value);
 	void PrimaryAttack();
+	void PrimaryInteract();
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

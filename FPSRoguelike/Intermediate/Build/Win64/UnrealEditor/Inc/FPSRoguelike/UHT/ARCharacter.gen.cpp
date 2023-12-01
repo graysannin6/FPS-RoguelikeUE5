@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	FPSROGUELIKE_API UClass* Z_Construct_UClass_AARCharacter();
 	FPSROGUELIKE_API UClass* Z_Construct_UClass_AARCharacter_NoRegister();
+	FPSROGUELIKE_API UClass* Z_Construct_UClass_UARInteractionCOmponent_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_FPSRoguelike();
 // End Cross Module References
 	void AARCharacter::StaticRegisterNativesAARCharacter()
@@ -44,6 +45,10 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CameraComp_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_CameraComp;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InteractionComp_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_InteractionComp;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -83,10 +88,19 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AARCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x00240800000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARCharacter_Statics::NewProp_CameraComp_MetaData), Z_Construct_UClass_AARCharacter_Statics::NewProp_CameraComp_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp_MetaData[] = {
+		{ "Category", "ARCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ARCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp = { "InteractionComp", nullptr, (EPropertyFlags)0x00240800000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARCharacter, InteractionComp), Z_Construct_UClass_UARInteractionCOmponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp_MetaData), Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AARCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_ProjectileClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_SpringArmComp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_CameraComp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AARCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AARCharacter>::IsAbstract,
@@ -126,9 +140,9 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AARCharacter, AARCharacter::StaticClass, TEXT("AARCharacter"), &Z_Registration_Info_UClass_AARCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARCharacter), 1166988037U) },
+		{ Z_Construct_UClass_AARCharacter, AARCharacter::StaticClass, TEXT("AARCharacter"), &Z_Registration_Info_UClass_AARCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARCharacter), 1704439177U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_2228458994(TEXT("/Script/FPSRoguelike"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_2384464428(TEXT("/Script/FPSRoguelike"),
 		Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
