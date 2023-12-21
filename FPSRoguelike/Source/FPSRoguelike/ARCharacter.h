@@ -10,6 +10,7 @@
 
 class UCameraComponent;
 class USpringArmComponent;
+class UAnimMontage;
 
 UCLASS()
 class FPSROGUELIKE_API AARCharacter : public ACharacter
@@ -17,8 +18,13 @@ class FPSROGUELIKE_API AARCharacter : public ACharacter
 	GENERATED_BODY()
 
 protected:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere,Category = "Attack")
 	TSubclassOf<AActor> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	TObjectPtr<UAnimMontage> AttackAnim;
+
+	FTimerHandle TimerHandler_PrimaryAttack;
 
 public:
 	// Sets default values for this character's properties
@@ -43,6 +49,7 @@ protected:
 	void MoveRight(float value);
 	void PrimaryAttack();
 	void PrimaryInteract();
+	void PrimaryAttack_TimeElapsed();
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

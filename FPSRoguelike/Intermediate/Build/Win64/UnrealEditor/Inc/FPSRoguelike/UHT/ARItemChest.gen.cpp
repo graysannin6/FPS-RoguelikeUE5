@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeARItemChest() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AARItemChest_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_UARGameplayInterface_NoRegister, (int32)VTABLE_OFFSET(AARItemChest, IARGameplayInterface), false },  // 2857095542
+			{ Z_Construct_UClass_UARGameplayInterface_NoRegister, (int32)VTABLE_OFFSET(AARItemChest, IARGameplayInterface), false },  // 3866189899
 		};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AARItemChest_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AARItemChest_Statics::StaticCppClassTypeInfo = {
@@ -128,9 +128,9 @@ void EmptyLinkFunctionForGeneratedCodeARItemChest() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AARItemChest, AARItemChest::StaticClass, TEXT("AARItemChest"), &Z_Registration_Info_UClass_AARItemChest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARItemChest), 3279866696U) },
+		{ Z_Construct_UClass_AARItemChest, AARItemChest::StaticClass, TEXT("AARItemChest"), &Z_Registration_Info_UClass_AARItemChest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARItemChest), 3336149871U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_739347196(TEXT("/Script/FPSRoguelike"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_3183520314(TEXT("/Script/FPSRoguelike"),
 		Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

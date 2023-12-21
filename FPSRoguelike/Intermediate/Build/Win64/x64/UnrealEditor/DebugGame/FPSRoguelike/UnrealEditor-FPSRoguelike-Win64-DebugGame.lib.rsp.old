@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FPSRoguelike-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\FPSRoguelikeEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.Cpp20.h.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FPSRoguelike\ARCharacter.gen.cpp.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FPSRoguelike\FPSRoguelike.init.gen.cpp.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FPSRoguelike\ARCharacter.cpp.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FPSRoguelike\FPSRoguelike.cpp.obj"
+"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FPSRoguelike\Default.rc2.res"
+/OUT:"C:\Users\chris\OneDrive\Documentos\GitHub\FPS-RoguelikeUE5\FPSRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FPSRoguelike\UnrealEditor-FPSRoguelike-Win64-DebugGame.lib"

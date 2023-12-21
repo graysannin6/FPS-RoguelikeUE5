@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\source\\fpsroguelike\\aritemchest.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\x64\\fpsroguelikeeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\fpsroguelike\\definitions.fpsroguelike.h",
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\source\\fpsroguelike\\aritemchest.h",
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\source\\fpsroguelike\\argameplayinterface.h",
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsroguelike\\uht\\argameplayinterface.generated.h",
+            "c:\\users\\chris\\onedrive\\documentos\\github\\fps-roguelikeue5\\fpsroguelike\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsroguelike\\uht\\aritemchest.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

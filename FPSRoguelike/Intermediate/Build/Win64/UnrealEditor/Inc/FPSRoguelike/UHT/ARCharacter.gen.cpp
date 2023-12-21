@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	FPSROGUELIKE_API UClass* Z_Construct_UClass_AARCharacter();
@@ -37,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AttackAnim_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_AttackAnim;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_SpringArmComp_MetaData[];
 #endif
@@ -67,11 +72,18 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AARCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
-		{ "Category", "ARCharacter" },
+		{ "Category", "Attack" },
 		{ "ModuleRelativePath", "ARCharacter.h" },
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AARCharacter_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARCharacter, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARCharacter_Statics::NewProp_ProjectileClass_MetaData), Z_Construct_UClass_AARCharacter_Statics::NewProp_ProjectileClass_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AARCharacter_Statics::NewProp_AttackAnim_MetaData[] = {
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "ARCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AARCharacter_Statics::NewProp_AttackAnim = { "AttackAnim", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARCharacter, AttackAnim), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARCharacter_Statics::NewProp_AttackAnim_MetaData), Z_Construct_UClass_AARCharacter_Statics::NewProp_AttackAnim_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AARCharacter_Statics::NewProp_SpringArmComp_MetaData[] = {
 		{ "Category", "ARCharacter" },
@@ -98,6 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp = { "InteractionComp", nullptr, (EPropertyFlags)0x00240800000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARCharacter, InteractionComp), Z_Construct_UClass_UARInteractionCOmponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp_MetaData), Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AARCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_ProjectileClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_AttackAnim,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_SpringArmComp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_CameraComp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARCharacter_Statics::NewProp_InteractionComp,
@@ -140,9 +153,9 @@ void EmptyLinkFunctionForGeneratedCodeARCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AARCharacter, AARCharacter::StaticClass, TEXT("AARCharacter"), &Z_Registration_Info_UClass_AARCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARCharacter), 1704439177U) },
+		{ Z_Construct_UClass_AARCharacter, AARCharacter::StaticClass, TEXT("AARCharacter"), &Z_Registration_Info_UClass_AARCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARCharacter), 2077202339U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_2384464428(TEXT("/Script/FPSRoguelike"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_2645924743(TEXT("/Script/FPSRoguelike"),
 		Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
