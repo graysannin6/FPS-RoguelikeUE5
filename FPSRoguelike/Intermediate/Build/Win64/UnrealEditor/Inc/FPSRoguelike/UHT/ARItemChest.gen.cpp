@@ -80,7 +80,7 @@ void EmptyLinkFunctionForGeneratedCodeARItemChest() {}
 		{ "ModuleRelativePath", "ARItemChest.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh = { "LidMesh", nullptr, (EPropertyFlags)0x00240800000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARItemChest, LidMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh_MetaData), Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh_MetaData) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh = { "LidMesh", nullptr, (EPropertyFlags)0x00240800000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AARItemChest, LidMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh_MetaData), Z_Construct_UClass_AARItemChest_Statics::NewProp_LidMesh_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AARItemChest_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARItemChest_Statics::NewProp_TargetPitch,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AARItemChest_Statics::NewProp_BaseMesh,
@@ -128,9 +128,9 @@ void EmptyLinkFunctionForGeneratedCodeARItemChest() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AARItemChest, AARItemChest::StaticClass, TEXT("AARItemChest"), &Z_Registration_Info_UClass_AARItemChest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARItemChest), 3336149871U) },
+		{ Z_Construct_UClass_AARItemChest, AARItemChest::StaticClass, TEXT("AARItemChest"), &Z_Registration_Info_UClass_AARItemChest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AARItemChest), 3327689852U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_3183520314(TEXT("/Script/FPSRoguelike"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_3571629491(TEXT("/Script/FPSRoguelike"),
 		Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_chris_OneDrive_Documentos_GitHub_FPS_RoguelikeUE5_FPSRoguelike_Source_FPSRoguelike_ARItemChest_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
